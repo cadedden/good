@@ -1,0 +1,85 @@
+table {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  align-content: center;
+  border-collapse: collapse;
+
+}
+
+
+.column1 {
+   background-color: green;
+  width: 350px;
+}
+
+
+.column2 {
+  background-color: red;
+  width: 350px;
+}
+
+.column3 {
+  background-color: blue;
+  width: 350px;
+}
+
+.button1 {
+  background-color: #white; /*  */
+border-radius: 12px;
+color: Green;
+padding: 15px ;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+vertical-align:  top;
+
+}
+
+.button2 {
+  background-color: #white; /*  */
+border-radius: 12px;
+color: red;
+padding: 15px ;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+vertical-align:  top;
+
+}
+
+.button3 {
+  background-color: #white; /*  */
+border-radius: 12px;
+color: blue;
+padding: 15px ;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+vertical-align:  top;
+
+}
+
+body {
+  color: white;
+
+}
+button {
+  text-align: center;
+  font-family: roboto, sans-serif;
+ }
+
+
+ @media only screen and (max-device-width: 480px) {
+     /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+
+
+  .column1, .column2 , .column3 {
+    display: inline-block;
+vertical-align:top;
+flex-wrap: wrap;
+margin-left: 100px;
+ }
+}
